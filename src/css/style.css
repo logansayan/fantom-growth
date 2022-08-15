@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6; }
+
+.header {
+  color: #eef2ff; }
+  .header__container {
+    width: 70vw;
+    margin: 0 auto; }
+  .header__top {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center; }
+  .header__brand {
+    color: #e0e7ff;
+    font-weight: 700;
+    letter-spacing: -2px;
+    font-size: 3.5rem;
+    text-shadow: 0 .5rem 6rem currentColor; }
+  .header__talk {
+    text-decoration: none; }
+  .header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8rem; }
+  .header__text {
+    width: 60%;
+    height: 100%; }
+  .header__heading {
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 1.2;
+    margin-bottom: 2rem; }
+  .header__paragraph {
+    color: #d1d5db;
+    margin-bottom: 2rem; }
+  .header__learn-more {
+    text-decoration: none; }
+  .header__hero {
+    margin-top: 2rem;
+    width: 40%; }
+
+.btn, .btn:link, .btn:visited {
+  font-family: inherit;
+  font-weight: 700;
+  padding: .5rem 1.5rem;
+  border-radius: 3px;
+  transform: translate(0);
+  transition: all .2s; }
+
+.btn:hover {
+  box-shadow: 0 0.2rem 2rem #e0e7ff;
+  background-color: #eef2ff;
+  color: #6366f1; }
+
+.btn:focus, .btn:active {
+  transform: translateY(2px); }
+
+.btn--white {
+  color: #eef2ff;
+  border: 1px solid #eef2ff; }
+
+.btn--purple {
+  text-decoration: underline;
+  padding: 0.5rem !important;
+  color: #eef2ff;
+  transition: all .2s; }
+  .btn--purple:hover {
+    background-color: rgba(67, 56, 202, 0.8);
+    color: #e0e7ff;
+    box-shadow: none;
+    text-decoration: none; }
+
+.header {
+  min-height: 60vh;
+  background-image: linear-gradient(to right bottom, #6366f1, #4338ca);
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 6rem; }

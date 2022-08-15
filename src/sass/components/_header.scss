@@ -1,0 +1,60 @@
+.header {
+  color: $color-light-1;
+
+  &__container {
+    width: 70vw;
+    margin: 0 auto;
+  }
+
+  &__top {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__brand {
+    color: $color-light-2;
+    font-weight: 700;
+    letter-spacing: -2px;
+    font-size: 3.5rem;
+    text-shadow: 0 .5rem 6rem currentColor;
+  }
+
+  &__talk {
+    text-decoration: none;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: $margin-top-big;
+  }
+
+  &__text {
+    width: 60%;
+    height: 100%;
+  }
+
+  &__heading {
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 1.2;
+    margin-bottom: $margin-bottom-small;
+  }
+
+  &__paragraph {
+    color: $color-light-3;
+    margin-bottom: $margin-bottom-small;
+  }
+
+  &__learn-more {
+    text-decoration: none;
+  }
+
+  &__hero {
+    margin-top: 2rem;
+    width: 40%;
+  }
+}
