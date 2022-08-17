@@ -1,0 +1,39 @@
+.about {
+  color: $color-light-1;
+
+  .about-container {
+    max-width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .about__hero {
+    width: 45%;
+  }
+
+  .about__text {
+    width: 45%;
+
+    &-heading {
+      font-weight: 300;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      margin-bottom: $gap-small;
+    }
+
+    &-phrase {
+      font-size: 3rem;
+      margin-bottom: $gap-small;
+    }
+
+    &-paragraph {
+      margin-bottom: $gap-semi;
+    }
+
+    &-btn {
+      // background-color: transparent;
+    }
+  }
+}

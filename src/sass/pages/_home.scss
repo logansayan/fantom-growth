@@ -1,21 +1,31 @@
+.header,
+.section-services,
+.section-about,
+.section-features,
+.section-calendly,
+.footer {
+  padding: $default-section-padding;
+  margin-bottom: 5rem;
+}
+
 .header {
-  min-height: 60vh;
   background-image: linear-gradient(to right bottom, rgba($color-primary, 1), rgba($color-secondary, 1));
   background-size: cover;
   background-position: center;
-  padding: $default-section-padding;
 }
 
 .section-services {
-
+  
 }
 
 .section-about {
-
+  background-image: linear-gradient(to right bottom, rgba($color-primary, 1), rgba($color-secondary, 1));
+  background-size: cover;
+  background-position: center;
 }
 
 .section-features {
-
+  
 }
 
 .section-calendly {
@@ -24,11 +34,4 @@
 
 .footer {
 
-}
-
-.btn {
-}
-
-.btn:hover {
-  
 }
