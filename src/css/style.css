@@ -94,12 +94,12 @@ body {
 
 .services__text {
   text-align: center; }
-  .services__text-heading {
+  .services__text-phrase {
     font-size: 3rem;
     font-weight: 700;
     text-transform: capitalize;
     margin-bottom: 8rem; }
-    .services__text-heading span {
+    .services__text-phrase span {
       color: #6366f1;
       font-size: 3.5rem;
       margin: 0 .5rem; }
@@ -127,26 +127,68 @@ body {
 
 .about {
   color: #eef2ff; }
-  .about .about-container {
+  .about-container {
     max-width: 70vw;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between; }
-  .about .about__hero {
+  .about__hero {
     width: 45%; }
-  .about .about__text {
+  .about__text {
     width: 45%; }
-    .about .about__text-heading {
+    .about__text-heading {
       font-weight: 300;
       font-size: 1.5rem;
       text-transform: uppercase;
       margin-bottom: 2rem; }
-    .about .about__text-phrase {
+    .about__text-phrase {
       font-size: 3rem;
       margin-bottom: 2rem; }
-    .about .about__text-paragraph {
+    .about__text-paragraph {
       margin-bottom: 4rem; }
+    .about__text-btn {
+      font-size: 2rem; }
+
+.features {
+  color: #374151; }
+  .features__container {
+    max-width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .features__text {
+    margin-right: 6rem; }
+    .features__text-phrase {
+      font-size: 3rem;
+      margin-bottom: 4rem; }
+      .features__text-phrase span {
+        font-size: 3.5rem;
+        color: #4338ca; }
+    .features__text-items {
+      padding: 2rem;
+      border: 3px solid #374151;
+      border-radius: 1rem; }
+    .features__text-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .features__text-item:not(:last-child) {
+        margin-bottom: 2rem; }
+      .features__text-item-icon {
+        font-size: 5rem;
+        margin-right: 1rem;
+        -webkit-text-stroke: 1px #374151; }
+      .features__text-item-text {
+        width: 85%; }
+        .features__text-item-text-heading {
+          font-size: 1.5rem; }
+        .features__text-item-text-paragraph {
+          font-size: 1.4rem; }
+  .features__hero {
+    width: 40%;
+    margin-right: 1rem; }
 
 .header,
 .section-services,
@@ -155,7 +197,7 @@ body {
 .section-calendly,
 .footer {
   padding: 6rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 4rem; }
 
 .header {
   background-image: linear-gradient(to right bottom, #6366f1, #4338ca);
