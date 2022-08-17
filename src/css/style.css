@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&display=swap");
 *,
 *::before,
 *::after {
@@ -121,9 +121,13 @@ body {
     font-size: 10rem;
     color: #6366f1; }
   .services__item-heading {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
+    font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 2rem; }
+  .services__item-paragraph {
+    font-weight: 400;
+    font-size: 1.5rem; }
 
 .quote {
   position: relative;
@@ -179,17 +183,17 @@ body {
     justify-content: space-between; }
   .features__text {
     flex: 0 1 80rem;
-    min-width: 50rem;
-    margin-right: 6rem; }
+    margin-right: 6rem;
+    min-width: 50rem; }
     .features__text-phrase {
       font-size: 3rem;
       margin-bottom: 4rem; }
       .features__text-phrase span {
         font-size: 3.5rem;
-        color: #4338ca; }
+        color: #6366f1; }
     .features__text-items {
       padding: 2rem;
-      border: 3px solid #374151;
+      border: 3px solid #6366f1;
       border-radius: 1rem; }
     .features__text-item {
       display: flex;
@@ -199,11 +203,12 @@ body {
         margin-bottom: 2rem; }
       .features__text-item-icon {
         font-size: 5rem;
-        margin-right: 1rem;
-        -webkit-text-stroke: 1px #374151; }
+        margin-right: 2rem; }
       .features__text-item-text {
         width: 85%; }
         .features__text-item-text-heading {
+          color: #6366f1;
+          margin-bottom: 1rem;
           font-size: 1.5rem; }
         .features__text-item-text-paragraph {
           font-size: 1.4rem; }

@@ -11,8 +11,8 @@
 
   &__text {
     flex: 0 1 80rem;
-    min-width: 50rem;
     margin-right: $gap-medium;
+    min-width: 50rem;
 
     &-phrase {
       font-size: 3rem;
@@ -20,13 +20,13 @@
 
       & span {
         font-size: 3.5rem;
-        color: $color-secondary;
+        color: $color-primary;
       }
     }
 
     &-items {
       padding: 2rem;
-      border: 3px solid $color-dark;
+      border: 3px solid $color-primary;
       border-radius: 1rem;
     }
 
@@ -41,14 +41,16 @@
 
       &-icon {
         font-size: 5rem;
-        margin-right: 1rem;
-        -webkit-text-stroke: 1px $color-dark;
+        margin-right: 2rem;
+        // -webkit-text-stroke: 1px $color-primary;
       }
 
       &-text {
         width: 85%;
 
         &-heading {
+          color: $color-primary;
+          margin-bottom: 1rem;
           font-size: 1.5rem;
         }
 
