@@ -36,11 +36,10 @@
   }
 
   &__item {
+    flex: 0 1 40rem;
     text-align: center;
     padding: 2rem;
     box-shadow: 0 .2rem 1rem $color-dark;
-    max-width: 40rem;
-    min-width: 30rem;
     border-radius: 5px;
 
     &:not(:last-child) {
@@ -48,18 +47,19 @@
     }
 
     &-icon {
-      font-size: 12rem;
+      font-size: 10rem;
       color: $color-primary;
     }
 
     &-heading {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
       text-transform: uppercase;
       margin-bottom: $gap-small;
       // color: $color-primary;
     }
 
     &-paragraph {
+      font-size: 1.4rem;
     }
   }
 }
