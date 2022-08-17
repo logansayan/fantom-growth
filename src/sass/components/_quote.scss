@@ -1,0 +1,25 @@
+.quote {
+  position: relative;
+  color: $color-light-1;
+
+  &__text {
+    text-align: center;
+    width: 70vw;
+    font-size: 5rem;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0 auto;
+
+    span {
+      display: block;
+    }
+  }
+
+  &__author {
+    position: absolute;
+    right: 8rem;
+    bottom: 2rem;
+    font-weight: 100;
+    font-style: italic;
+  }
+}

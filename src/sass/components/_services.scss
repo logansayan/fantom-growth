@@ -37,6 +37,7 @@
 
   &__item {
     flex: 0 1 40rem;
+    min-width: 30rem;
     text-align: center;
     padding: 2rem;
     box-shadow: 0 .2rem 1rem $color-dark;
@@ -52,14 +53,13 @@
     }
 
     &-heading {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       text-transform: uppercase;
       margin-bottom: $gap-small;
       // color: $color-primary;
     }
 
     &-paragraph {
-      font-size: 1.4rem;
     }
   }
 }

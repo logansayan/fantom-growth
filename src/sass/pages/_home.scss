@@ -1,5 +1,6 @@
 .header,
 .section-services,
+.section-quote,
 .section-about,
 .section-features,
 .section-calendly,
@@ -16,6 +17,10 @@
 
 .section-services {
   
+}
+
+.section-quote {
+  background-color: $color-primary;
 }
 
 .section-about {
