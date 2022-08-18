@@ -1,4 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&display=swap");
+/*
+0 - 600px: Phone
+600px - 950px: Tablet portrait
+900px - 1200px: Tablet landscape
+[1200px - 1800px]: Main design
+1800px +: Big desktop
+*/
+/*
+$breakpoint argument choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+*/
 *,
 *::before,
 *::after {
@@ -113,7 +127,7 @@ body {
   min-width: 30rem;
   text-align: center;
   padding: 2rem;
-  box-shadow: 0 0.2rem 1rem #374151;
+  box-shadow: 0 0.2rem 1rem #4338ca;
   border-radius: 5px; }
   .services__item:not(:last-child) {
     margin-right: 6rem; }
@@ -193,7 +207,7 @@ body {
         color: #6366f1; }
     .features__text-items {
       padding: 2rem;
-      border: 3px solid #6366f1;
+      box-shadow: 0 0.2rem 1rem #4338ca;
       border-radius: 1rem; }
     .features__text-item {
       display: flex;
