@@ -1,7 +1,5 @@
 .services {
   &__container {
-    max-width: 70vw;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,6 +31,10 @@
   &__items {
     display: flex;
     justify-content: space-between;
+
+    @include respond(tab-port) {
+      flex-direction: column;
+    }
   }
 
   &__item {
@@ -43,8 +45,22 @@
     box-shadow: 0 .2rem 1rem $color-secondary;
     border-radius: 5px;
 
+    @include respond(tab-land) {
+      min-width: 25rem;
+    }
+
+    @include respond(tab-port) {
+      flex: none;
+      max-width: 60rem;
+    }
+
     &:not(:last-child) {
       margin-right: $gap-medium;
+
+      @include respond(tab-port) {
+        margin: 0;
+        margin-bottom: 3rem;
+      }
     }
 
     &-icon {
