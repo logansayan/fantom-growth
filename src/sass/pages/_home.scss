@@ -3,7 +3,7 @@
 .section-quote,
 .section-about,
 .section-features,
-.section-calendly,
+.section-booking,
 .footer {
   padding: $default-section-padding;
   margin-bottom: $gap-semi;
@@ -18,7 +18,7 @@
 .quote,
 .about,
 .features,
-.calendly,
+.booking,
 .footer {
   &__container {
     max-width: 70vw;
@@ -62,7 +62,7 @@
   
 }
 
-.section-calendly {
+.section-booking {
 
 }
 

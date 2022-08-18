@@ -44,6 +44,7 @@
     padding: 2rem;
     box-shadow: 0 .2rem 1rem $color-secondary;
     border-radius: 5px;
+    transition: all .3s;
 
     @include respond(tab-land) {
       min-width: 25rem;
@@ -52,6 +53,11 @@
     @include respond(tab-port) {
       flex: none;
       max-width: 60rem;
+    }
+
+    &:hover {
+      box-shadow: 0 .4rem 2rem $color-secondary;
+      transform: translateY(-1rem) scale(1.03);
     }
 
     &:not(:last-child) {
