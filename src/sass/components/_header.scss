@@ -25,11 +25,21 @@
     justify-content: space-between;
     align-items: center;
     margin-top: $gap-big;
+
+    @include respond(tab-port) {
+      flex-direction: column;
+    }
   }
 
   &__text {
     width: 60%;
     height: 100%;
+
+    @include respond(tab-port) {
+      width: auto;
+      margin: 5rem 0;
+      text-align: center;
+    }
   }
 
   &__heading {
@@ -51,5 +61,9 @@
   &__hero {
     margin-top: 2rem;
     width: 35%;
+
+    @include respond(tab-port) {
+      width: 50vw;
+    }
   }
 }

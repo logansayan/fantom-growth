@@ -20,7 +20,6 @@ html {
   }
 
   @include respond(phone) {
-    font-size: 50%; // 1rem == 8px
   }
 }
 

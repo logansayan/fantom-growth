@@ -30,9 +30,6 @@ html {
   @media (max-width: 75em) {
     html {
       font-size: 56.25%; } }
-  @media (max-width: 37.5em) {
-    html {
-      font-size: 50%; } }
 
 body {
   font-family: "Inter", sans-serif;
@@ -80,6 +77,15 @@ body {
     .calendly__container,
     .footer__container {
       max-width: auto; } }
+  @media (max-width: 37.5em) {
+    .header__container,
+    .services__container,
+    .quote__container,
+    .about__container,
+    .features__container,
+    .calendly__container,
+    .footer__container {
+      max-width: 100%; } }
 
 .header {
   background-image: linear-gradient(to right bottom, #6366f1, #4338ca);
@@ -117,9 +123,17 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-top: 8rem; }
+    @media (max-width: 59.375em) {
+      .header__content {
+        flex-direction: column; } }
   .header__text {
     width: 60%;
     height: 100%; }
+    @media (max-width: 59.375em) {
+      .header__text {
+        width: auto;
+        margin: 5rem 0;
+        text-align: center; } }
   .header__heading {
     font-weight: 900;
     font-size: 5rem;
@@ -131,6 +145,9 @@ body {
   .header__hero {
     margin-top: 2rem;
     width: 35%; }
+    @media (max-width: 59.375em) {
+      .header__hero {
+        width: 50vw; } }
 
 .btn, .btn:link, .btn:visited {
   font-family: inherit;

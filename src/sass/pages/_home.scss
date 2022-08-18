@@ -31,6 +31,10 @@
     @include respond(tab-port) {
       max-width: auto;
     }
+
+    @include respond(phone) {
+      max-width: 100%
+    }
   }
 }
 
