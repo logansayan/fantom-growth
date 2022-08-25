@@ -41,4 +41,18 @@
     text-decoration: none;
     }
   }
+
+  &--primary {
+    text-decoration: none;
+    padding: 2rem 4rem;
+    color: $color-light-2;
+    background-color: $color-secondary;
+    border-radius: 1rem;
+    font-weight: 700;
+    transition: all .2s;
+
+    &:hover {
+      box-shadow: 0 .4rem 2rem $color-secondary;
+    }
+  }
 }
